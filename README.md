@@ -1,0 +1,1 @@
+This repository demonstrates a common error when using the `erase` method of `std::vector` in C++. The bug.cpp file shows the erroneous code and bugSolution.cpp shows a corrected version.  The problem arises from modifying the iterator `i` while iterating through the vector using `erase`.  Always be mindful of iterator invalidation when modifying the container during iteration.
